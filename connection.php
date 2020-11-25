@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli("localhost",'root','','third_db');
+$con = new mysqli("localhost",'root','','blog');
 if(!$con){
 	die("Error : Connections field");
 }
